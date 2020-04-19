@@ -39,15 +39,14 @@ Since I am running first 2000 steps with uniform random sampling from the range 
 Subsiquently the actions to move the car will come from policy model(model actor). Even here I am introducing 20% random action being seleted for some exploration scope.
 
 **5.Neural network model for actor-critic:**
-Since our input is state is an image I have used CNN based model for both actor and critic models.
+Since our input is state is an image CNN based model for both actor and critic models is used.
 To feed both state(s) and action(a) together to the critic models is tricky because concatinating two tensors of different dimentions is not possible. And they are also of different feature type. For this to work, passed the image through the cnn and after the flatten layer the output is 1-dimentional feature vector, this is concatinated to the action value and followed up with two more fully connected layers.
 
 **CURRENT STATUS**
-
-I have included td3 into the car-map environment with out any issue. Everything is properly integrated.
+Included td3 into the car-map environment with out any issue. Everything is properly integrated.
 
 But the policy netork does not estimate good actions, in a way it is giving similar values every time. Resulting in car taking circular turns in the same location.
 
 **I am using a CPU based pc with a ram size of 8GB and 4 cpu cores.**
 
-**I have everything integrted into code linked here for the TD3, but for some reason the car is just taking circular paths. I need few more days to figure out the reason and resolve the issue**
+**Everything is  integrted into code linked here for the TD3, but the car is just taking circular paths for some reason. Need few more days to figure out the reason and resolve the issue**
