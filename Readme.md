@@ -47,6 +47,6 @@ Included td3 into the car-map environment with out any issue. Everything is prop
 
 But the policy netork does not estimate good actions, in a way it is giving similar values every time. Resulting in car taking circular turns in the same location.
 
-**A a CPU based pc with a ram size of 16GB and 4 cpu cores is being used.**
+**A a CPU based pc with a ram size of 16GB and 4 core ram is being used.**
 
 **Everything is  integrted into code linked here for the TD3, but the car is just taking circular paths for some reason. Need few more days to figure out the reason and resolve the issue**
