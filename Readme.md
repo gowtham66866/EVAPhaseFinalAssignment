@@ -13,8 +13,7 @@ Four critic models -- two critic models, two critic targets.
 
 *three model networks take input from the curret state(s) and its action(a).
 *three target networks take input from the nest state(s') and next action(a').
-For detailed theoritical understanding with code please refer to this link https://github.com/chunduri11/session-9_RL.
-
+For detailed theoritical understanding with code please refer to this link https://github.com/gowtham66866/EVAPhase2Session9.
 
 **2. State space:**
 For state input we are using an 60x60 patch of sand image around the current car location. Resized it to 40x40 using cv2.
